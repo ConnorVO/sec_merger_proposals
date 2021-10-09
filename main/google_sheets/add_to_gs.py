@@ -16,4 +16,4 @@ def add_to_gs(filings: List[PartialFiling]):
         filing_list = [filing.filed_at, filing.ticker, filing.cik, filing.url, filing.description]
         sheet_list.append(filing_list)
 
-    sheet.append_table(sheet_list[::-1])
+    sheet.append_table(sheet_list)

@@ -44,12 +44,12 @@ def get_data_from_filing(filings: List[PartialFiling]) -> List[PartialFiling]:
         all_text = _get_all_text(soup)
         does_have_two_tickers = _does_have_two_tickers(all_text)
 
+        import pprint
+        pprint.PrettyPrinter().pprint(f'{filing.ticker} | {filing.url} |  {does_have_two_tickers}')
+
         if not does_have_two_tickers:
             continue
 
         final_filings.append(filing)
-
-        import pprint
-        pprint.PrettyPrinter().pprint(f'{filing.ticker} | {filing.url} |  {does_have_two_tickers}')
 
     return final_filings
