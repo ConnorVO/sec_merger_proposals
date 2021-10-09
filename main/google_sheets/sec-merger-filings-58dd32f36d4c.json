@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sec-merger-filings",
+  "private_key_id": "58dd32f36d4cc91f04ac5c3c55a6e2a333919496",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4PbLHfqFEx0nK\nV8q4OSlDx6/g3C/hwweeTG4yzmwjOtqgbiniA7/Jq1Kg+lwweoB0Pfxnshiec3ZL\nW/uh54gMMPm1xEK71GuYnjTLHjiptFKYrodNh1b882SVI59OFB1oBfs8t5t72KUF\nReITWWi/qhPZKMuHNiW3cKa6RvmaGz1keqAkCYYY5rQZLpNynUzmlVhU0xzYLN8G\nhnrHbRodOoafBJI+xEgkKvXAhvFtzffOi1/h1oQTt4ltyqczyzLgOh0zSmN+xta6\nhEjxCrvWPxVscO04Dgat9nsDsKgtr9qaVFaZGZqFZnO4CwWyDXjMESUk1Se8YsRs\nxLNUwx01AgMBAAECggEAAO6Yi6xDNkDnh5yWmPT6pRTn3psybHLHxkhdZRLqpTeG\nMsm3g8P8g5VeLiuI9yguCIG3lfXqmvdSiBnRu52Potp0gt5qCgI1QDlpJN40f0Q/\nH0O6ZK0lViijh5rDVK4C6lA9Ea8u8W6URJVsqQEIxPAMwkp0vMHteLRorudunhXP\nvkuf65pHTPNLqbwHX6g0ZQPsLgj7e/RN20NlXzljhZoEpVwYJHvSaH9ZDNPxpytq\n11RSK8bSDteZzoQkAGtUBnotlVNxmWSMfwMKB9D242Nr7czDs2cYEW8GZk3GDP9X\nUYJXJuNp6LleMjjY6xRTyQcgPD+c6SNHRU5zPwxitwKBgQDtBReJEXiLAVMlTBQn\nxiF+CWhTjXszPikPDbYQiVAhCA1an9WI9UyCvBJA7N1PgEVIdPHrCrybvS0k0zkR\nkwTSYrQf7ELKNMIAqyYCoNfc/lZ6U2qeyiBixcl87SNI+6HzZR5s2WleRHHP+7bH\n/LO/qp6860LzIfUaCrBKYmeh4wKBgQDG/qOoXtK8xE5TSQekHBimFamcEH45xQu9\nHlm8Eh68oFkToIwF+WlG37//fKgsUTUYKfBHebubf2/cNmnfsvV2ybfgb0pqLxPK\nzg6UOkELbWzEChBGIkvhTAfSoJ1cTpdjNgkelU71BnE+cNgsxu7Aov7YaovGxbAk\ntSbywgqQBwKBgDZu4+/TtlZeMIUxSrOzuf9jE7WUmYW0MePGJ1j24BMl8UMtz/GL\nPE4N+Tc17sGSWNcCHIj5R0WRFawOYl3Z4NKcXneyX8hmg2N56tnRrKGRO7UOMT9U\ndkmY2OQ65c6eE5x9TZZ7+8nteCHm0hxtua479ga3FQIXe13GtKPwo5I3AoGAYMKS\n25z4BbfCijbZk0/iIGgqJ+vRJNAOjDAE3DFHZtrlVWjcjU8ghMjpuBZqQ9pc4doK\nrwafVdYak06WHqMLPm6JjYUv/v/TNOsLJcJJvH/BwnVOQnwMv4lTyHQ28Bp6/E/b\nEVbypKw0RnNieitlDqBzINJ2EvovUzoOrT3zGuMCgYEA2hPI2FGUL0DtgglEgXww\n+7ONbfl0t5wgV2SOsWG886e81MsiX8zHy7uSuaU+V2fLrNFr3G4KHAGRriPimZ6r\n1f9l2beln8tWk32WkCkudprytyUVptHQDSJ+yteUoQ9Ler4TIIfp7Vpd8QDH+atc\nzNUywQxVvoYdyfbiOXWERck=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sec-merger-filings@sec-merger-filings.iam.gserviceaccount.com",
+  "client_id": "104275475280499952470",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sec-merger-filings%40sec-merger-filings.iam.gserviceaccount.com"
+}
