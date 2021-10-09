@@ -18,11 +18,11 @@ def get_filings_between_dates():
     start_date_string = start_date.strftime('%Y-%m-%d')
 
     # uncomment these if you want to set the dates
-    start_date_string = '2021-09-01'
-    end_date_string = '2021-10-07'
-    final_filings = sec_filings.get_filings_between_dates(start_date_string, end_date_string)
+    # start_date_string = '2021-09-01'
+    # end_date_string = '2021-10-07'
+    # final_filings = sec_filings.get_filings_between_dates(start_date_string, end_date_string)
 
-    # final_filings = sec_filings.get_filings_between_dates(start_date_string, start_date_string)
+    final_filings = sec_filings.get_filings_between_dates(start_date_string, start_date_string)
     if final_filings is not None:
         add_to_gs(final_filings)
 
