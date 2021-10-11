@@ -12,7 +12,7 @@ def get_ex991(start_date_string: str, end_date_string: str, unique_filings: List
     _unique_filings = unique_filings
 
     query = {
-        "query": '"entered into" merger "exhibit 99.1" -"credit agreement" -"license agreement" -"isda" -"pro forma" -"acquisition corp" -"acquisition corporation" -"previously announced acquisition" -"previously announced merger" -"previously announced transaction" -"acquisition company" -"acquisition holdings" -"loan agreement" -"completion of acquisition"',
+        "query": '"entered into" merger "exhibit 99.1" -"credit agreement" -"license agreement" -"isda" -"pro forma" -"acquisition corp" -"acquisition corporation" -"previously announced acquisition" -"previously announced merger" -"previously announced transaction" -"acquisition company" -"special purpose acquisition company" -"acquisition holdings" -"loan agreement" -"completion of acquisition"',
         "formTypes": ['8-K'],
         "startDate": start_date_string,
         "endDate": end_date_string,
