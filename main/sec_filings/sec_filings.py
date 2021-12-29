@@ -10,11 +10,13 @@ def get_filings_between_dates(start_date: str, end_date: str) -> List[PartialFil
     final_filings: List[PartialFiling] = get_data_from_filing(filings)
 
     # remove duplicate companies
-    used_ciks = []
-    unique_filings = []
-    for filing in final_filings:
-        if filing.cik not in used_ciks:
-            used_ciks.append(filing.cik)
-            unique_filings.append(filing)
+    # used_ciks = []
+    # unique_filings = []
+    # for filing in final_filings:
+    #     if filing.cik not in used_ciks:
+    #         used_ciks.append(filing.cik)
+    #         unique_filings.append(filing)
 
-    return unique_filings
+    # return unique_filings
+
+    return final_filings

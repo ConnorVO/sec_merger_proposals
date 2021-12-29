@@ -47,8 +47,8 @@ def get_data_from_filing(filings: List[PartialFiling]) -> List[PartialFiling]:
         import pprint
         pprint.PrettyPrinter().pprint(f'{filing.ticker} | {filing.url} |  {does_have_two_tickers}')
 
-        if not does_have_two_tickers:
-            continue
+        # if not does_have_two_tickers:
+        #     continue
 
         final_filings.append(filing)
 
