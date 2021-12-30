@@ -60,6 +60,7 @@ def _does_pass_phrase_check(all_text: str) -> bool:
         'the completion of our merger',
         'acquisition corp.',
         'acquisition corporation',
+        'declared a dividend',
         # 'consolidated statements of operations',
         # 'unaudited financial statements',
         # 'interim financial statements',
