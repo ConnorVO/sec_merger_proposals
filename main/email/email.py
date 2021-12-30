@@ -35,7 +35,7 @@ def _get_message_string_from_filing_obj(filing_obj) -> str:
     return msg_str
 
 
-def send(filings: List[PartialFiling], date_string: str):
+def send(filings: List[PartialFiling], date_string: str, is_test: bool = False):
 
     filing_obj = _get_filing_info(filings)
     msg_str = _get_message_string_from_filing_obj(filing_obj)
@@ -48,7 +48,7 @@ def send(filings: List[PartialFiling], date_string: str):
 
     # Email participants
     sender_email = "connorv.dev@gmail.com"
-    receiver_emails = ["logan.mcdirmit@gmail.com", "connor.vanooyen@gmail.com"]
+    receiver_emails = ["logan.mcdirmit@gmail.com", "connor.vanooyen@gmail.com"] if not is_test else ["connor.vanooyen@gmail.com"]
 
     # Message
     message = f'To: {",".join(receiver_emails)}\nSubject: Mergers for {date_string}\n\n{msg_str}'

@@ -42,12 +42,12 @@ def test_email():
     '''
 
     # EMAIL WON'T WORK PROPERLY WITH TWO DATES
-    start_date_string = '2021-12-28'
+    start_date_string = '2021-12-27'
     # end_date_string = '2021-12-0'
     final_filings = sec_filings.get_filings_between_dates(start_date_string, start_date_string)
 
     if final_filings:
         add_to_gs(final_filings)
-        send(final_filings, start_date_string)
+        send(final_filings, start_date_string, is_test=True)
     else:
         print("No Filings")
