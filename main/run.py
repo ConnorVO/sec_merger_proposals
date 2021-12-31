@@ -42,7 +42,7 @@ def test_email():
     '''
 
     # EMAIL WON'T WORK PROPERLY WITH TWO DATES
-    start_date_string = '2021-12-30'
+    start_date_string = '2021-11-15'
     # end_date_string = '2021-12-0'
     final_filings = sec_filings.get_filings_between_dates(start_date_string, start_date_string)
 
