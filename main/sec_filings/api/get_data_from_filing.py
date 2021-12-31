@@ -52,6 +52,8 @@ def _does_pass_phrase_check(all_text: str) -> bool:
         'special purpose acquisition company', 
         'special purpose acquisition company,',
         'completed the closing of the previously announced acquisition',
+        'condensed combined balance sheet',
+        'completion of its acquisition',
         'blank check company',
         'blank check company,',
         'loan purchase agreement',
