@@ -31,6 +31,9 @@ def get_ex991(start_date_string: str, end_date_string: str, unique_filings: List
     for filing in filings:
         is_991 = True
 
+        import pprint
+        pprint.PrettyPrinter().pprint(filing)
+
         if filing['type'] != 'EX-99.1':
             is_991 = False
 
@@ -38,8 +41,8 @@ def get_ex991(start_date_string: str, end_date_string: str, unique_filings: List
 
         _unique_filings.append(partial_filing)
 
-        import pprint
-        pprint.PrettyPrinter().pprint(vars(partial_filing))
+        # import pprint
+        # pprint.PrettyPrinter().pprint(vars(partial_filing))
 
     if not filings:
         return _unique_filings

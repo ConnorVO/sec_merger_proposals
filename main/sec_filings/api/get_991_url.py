@@ -15,7 +15,7 @@ def _get_url(soup: BeautifulSoup) -> str:
         href = link.get('href') if link.get('href') else None
         if href is None:
             continue
-        if 'ex991' in href.lower() or 'ex-991' in href.lower() or 'ex99-1' in href.lower() or 'ex-99-1' in href.lower():
+        if 'ex991' in href.lower() or 'ex-991' in href.lower() or 'ex99-1' in href.lower() or 'ex-99-1' in href.lower() or '99.1' in href.lower() or 'ex99.1' in href.lower() or 'ex-99.1' in href.lower() or '99-1' in href.lower() or '991' in href.lower():
             return href
 
     print("No ex99-1 links")
@@ -28,5 +28,12 @@ def get_991_url(url_8k: str):
 
     if url is None:
         return url_8k
+    
+    if not url.startswith('http'):
+        import re
+        base_url: str = re.search("^(.*[\\\/])", url_8k).group(1)
+        full_url:str = base_url + url
+        
+        return full_url
 
     return url
